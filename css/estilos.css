@@ -1,0 +1,169 @@
+/* Aqui empieza la estructura para la fuente */
+
+@font-face {
+    font-family: Century-Gothic-Regular;
+    src: url('fuentes/GOTHIC.TTF') format("truetype");
+}
+
+@font-face {
+    font-family: Century-Gothic-Bold;
+    src: url('fuentes/GOTHICB.TTF') format("truetype");
+}
+
+@font-face {
+    font-family: Century-Gothic-BoldItalic;
+    src: url('fuentes/GOTHICBI.TTF') format("truetype");
+}
+
+@font-face {
+    font-family: Century-Gothic-Italic;
+    src: url('fuentes/GOTHICI.TTF') format("truetype");
+}
+
+
+/* Aqui empieza la estructura para el diseño responsive */
+
+@media screen and (min-width: 480px) {
+    header nav ul li {
+        width: 22%;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    header nav ul li {
+        width: 8%;
+    }
+}
+
+@media screen and (min-width: 950px) {}
+
+body {
+    font-family: 'Century-Gothic-Bold', cursive;
+    font-size: 16px;
+    background-color: #FFCE55;
+}
+
+header {
+    background: #535769;
+    text-align: right;
+    height: 150px;
+    border-radius: 15px;
+}
+
+header figure {
+    float: left;
+    margin-top: 0px;
+}
+
+header figure img {
+    width: 150px;
+    height: 150px;
+}
+
+header div {
+    float: right: ;
+}
+
+header div img {
+    width: 150px;
+    height: 150px;
+}
+
+header h1 {
+    color: #FEFDFF;
+    float: left;
+    font-size: 1.6em;
+    margin: 7px 80px 0px 50px;
+    padding: 0px;
+    margin-top: 60px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.titulo {
+    color: #FEFDFF;
+    font-size: 1.6em;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    height: 50px;
+    background: #535769;
+    margin-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    list-style: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+aside {
+    float: right;
+    width: 200px;
+    height: 1510px;
+    background: #535769;
+    border-radius: 15px;
+}
+
+aside h1 {
+    color: #FEFDFF;
+    float: left;
+    font-size: 1.0em;
+    margin: 7px 80px 0px 50px;
+    padding: 0px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.redes-sociales {
+    width: 50px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.publicidad {
+    width: 150px;
+    height: 150px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+section article .pelicula {
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    border-radius: 0px 0px 20px 10%;
+    margin: 50px 0px 20px 10%;
+    width: 85%;
+}
+
+.posters {
+    width: 200px;
+    height: 300px;
+}
+
+footer {
+    background: #535769;
+    text-align: center;
+    height: 50px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding-top: 5px;
+}
